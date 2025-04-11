@@ -38,29 +38,29 @@ export { default as github } from './github.png';
 export { default as menu } from './menu.svg';
 export { default as close } from './close.svg';
 
-// Технологии
-export { default as css } from './css.png';
-export { default as git } from './git.png';
-export { default as html } from './html.png';
-export { default as javascript } from './javascript.png';
-export { default as mongodb } from './mongodb.png';
-export { default as nodejs } from './nodejs.png';
-export { default as reactjs } from './reactjs.png';
-export { default as redux } from './redux.png';
-export { default as tailwind } from './tailwind.png';
-export { default as threejs } from './threejs.png';
-export { default as gsap } from './gsap.png';
-export { default as framer } from './framer.png';
-export { default as figma } from './figma.png';
-export { default as mysql } from './mysql.png';
-export { default as express } from './express.png';
-export { default as aws } from './aws.png';
-export { default as mui } from './mui.png';
+// Технологии - заменяем на существующие аналоги
+export { default as css } from './backend.png'; // Используем backend.png вместо css.png
+export { default as git } from './github.png';
+export { default as html } from './backend.png';
+export { default as javascript } from './backend.png';
+export { default as mongodb } from './backend.png';
+export { default as nodejs } from './backend.png';
+export { default as reactjs } from './backend.png';
+export { default as redux } from './backend.png';
+export { default as tailwind } from './backend.png';
+export { default as threejs } from './backend.png';
+export { default as gsap } from './backend.png';
+export { default as framer } from './backend.png';
+export { default as figma } from './backend.png';
+export { default as mysql } from './backend.png';
+export { default as express } from './backend.png';
+export { default as aws } from './backend.png';
+export { default as mui } from './backend.png';
 
 // Проекты
-export { default as gearXpert } from './gearXpert.png';
-export { default as project2 } from './project2.png';
-export { default as project3 } from './project3.png';
+export { default as gearXpert } from './backend.png'; // Временная замена
+export { default as project2 } from './backend.png';
+export { default as project3 } from './backend.png';
 export const navLinks = [
   {
     id: "about",
