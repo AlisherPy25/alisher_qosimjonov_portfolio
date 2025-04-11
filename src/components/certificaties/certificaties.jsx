@@ -6,7 +6,7 @@ const Certificaties = () => {
   const certificaties = [
     {
       id: 1,
-      url: "https://i.ibb.co/9HyRx19/cert1.jpg",
+      url: "https://ibb.co/0RbhYY1G",
       title: "Certified Ethical Hacker",
       description: {
         ru: "Сертификат по этичному хакингу",
@@ -15,47 +15,47 @@ const Certificaties = () => {
     },
     {
       id: 2,
-      url: "https://i.ibb.co/0pQR2mp/cert2.jpg",
-      title: "CompTIA Security+",
+      url: "https://ibb.co/dxkd7Y7",
+      title: "Introduction to Data Sciense",
       description: {
-        ru: "Базовый сертификат безопасности",
-        uz: "Asosiy xavfsizlik sertifikati"
+        ru: "Вход в базу данных",
+        uz: "Ma'lumotlar bazasiga kirib borish"
       }
     },
     {
       id: 3,
-      url: "https://i.ibb.co/r2d8kHj/cert3.jpg",
-      title: "OSCP Certification",
+      url: "https://ibb.co/r2d8kHjX",
+      title: "Google Cybersecurity",
       description: {
-        ru: "Сертификат пентестера",
-        uz: "Pentester sertifikati"
+        ru: "Гугл кибер безопасность",
+        uz: "Google kiberxavfsizlik sertifikati"
       }
     },
     {
       id: 4,
-      url: "https://i.ibb.co/VYRdvDB/cert4.jpg",
-      title: "Python Developer",
+      url: "https://ibb.co/VYRdvDBZ",
+      title: "Computer hardware basics",
       description: {
-        ru: "Сертификат Python разработчика",
-        uz: "Python dasturchi sertifikati"
+        ru: "Основы компьютера",
+        uz: "Kompyuter asoslari sertifikati"
       }
     },
     {
       id: 5,
-      url: "https://i.ibb.co/dxkd7Y7/cert5.jpg",
+      url: "https://ibb.co/9HyRx19S",
       title: "C++ Advanced",
       description: {
-        ru: "Продвинутый C++",
-        uz: "Malakali C++"
+        ru: "Сертификат в кибер безопасности",
+        uz: "Kiberxavfsizlik sertifikati"
       }
     },
     {
       id: 6,
-      url: "https://i.ibb.co/0RbhYY1/cert6.jpg",
+      url: "https://ibb.co/0pQR2mp0",
       title: "Network Security",
       description: {
-        ru: "Защита сетей",
-        uz: "Tarmoq xavfsizligi"
+        ru: "Сертификат Этичного хакера",
+        uz: "Ethical hacker sertifikati"
       }
     }
   ];
