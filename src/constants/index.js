@@ -26,10 +26,7 @@ import {
   reactjs,
   redux,
   tailwind,
-  threejs,
-  firstTestimonial,
-  secondTestimonial,
-  thirdTestimonial,
+  threejs
 } from '../assets';
 
 export const navLinks = [
