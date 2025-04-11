@@ -26,6 +26,7 @@ const Navbar = () => {
   }, []);
 
   return (
+    <nav
       className={`${
         styles.paddingX
       } w-full flex items-center py-5 fixed top-0 z-20 ${
@@ -47,7 +48,8 @@ const Navbar = () => {
             <span className='sm:block hidden'> | Qosimjonov</span>
           </p>
         </Link>
-
+        
+        
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav) => (
             <li
