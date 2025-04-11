@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 
-const Certificates = () => {
+const Certificaties = () => {
   const [language, setLanguage] = useState('ru');
 
   // Данные сертификатов с вашими ссылками
-  const certificates = [
+  const certificaties = [
     {
       id: 1,
       url: "https://i.ibb.co/9HyRx19/cert1.jpg",
@@ -88,7 +88,7 @@ const Certificates = () => {
 
         {/* Сетка сертификатов */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          {certificates.map((cert) => (
+          {certificaties.map((cert) => (
             <motion.div
               key={cert.id}
               initial={{ opacity: 0, scale: 0.9 }}
@@ -125,4 +125,4 @@ const Certificates = () => {
   );
 };
 
-export default Certificates;
+export default Certificaties;

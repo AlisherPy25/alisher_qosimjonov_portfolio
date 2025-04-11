@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 
-const Certificates = () => {
+const Certificaties = () => {
   // Данные сертификатов с вашими ссылками
   const certificates = [
     {
@@ -80,7 +80,7 @@ const Certificates = () => {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {certificates.map((cert) => (
+        {certificaties.map((cert) => (
           <motion.div
             key={cert.id}
             whileHover={{ scale: 1.03 }}
@@ -111,4 +111,4 @@ const Certificates = () => {
   );
 };
 
-export default Certificates;
+export default Certificaties;
