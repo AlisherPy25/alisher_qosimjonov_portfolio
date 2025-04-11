@@ -1,4 +1,3 @@
-
 import {
   logo,
   backend,
@@ -16,7 +15,6 @@ import {
   express,
   aws,
   mui,
-  
   gsap,
   framer,
   figma,
@@ -32,46 +30,42 @@ import {
   firstTestimonial,
   secondTestimonial,
   thirdTestimonial,
-} from '../assets'
+} from '../assets';
 
-
-// Import Tekisky separately
+// Компания логотиплари / Логотипы компаний
 import tekisky from "../assets/company/tekisky.png";
-
+import yourCompany from "../assets/company/your-company.png";
 
 export const navLinks = [
-
-
   {
     id: "about",
-    title: "About",
-    
+    title: "Обо мне / Men haqimda",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Проекты / Loyihalar", 
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "Контакты / Bog'lanish",
   },
 ];
 
 const services = [
   {
-    title: "Full-Stack Developer",
+    title: "Пентестер / Pentester",
     icon: web,
   },
   {
-    title: "Frontend Developer",
+    title: "Frontend разработчик / Frontend dasturchi",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Backend разработчик / Backend dasturchi",
     icon: backend,
   },
   {
-    title: "Ui UX Designer",
+    title: "UI/UX дизайнер / UI/UX dizayner",
     icon: creator,
   },
 ];
@@ -94,25 +88,23 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "gsap",
+    name: "GSAP",
     icon: gsap,
   },
   {
-    name: "framer",
+    name: "Framer Motion",
     icon: framer,
   },
-
- 
   {
     name: "Three JS",
     icon: threejs,
   },
   {
-    name: "figma",
+    name: "Figma",
     icon: figma,
   },
   {
-    name: "Redux Toolkit",
+    name: "Redux",
     icon: redux,
   },
   {
@@ -120,7 +112,7 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Material Ui",
+    name: "Material UI",
     icon: mui,
   },
   {
@@ -128,7 +120,7 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "Express Js",
+    name: "Express JS",
     icon: express,
   },
   {
@@ -140,134 +132,66 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "MySql",
+    name: "MySQL",
     icon: mysql,
   },
-
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
- 
-
 ];
 
 const experiences = [
   {
-    title: "Full-Stack Developer",
-    company_name: "Tekisky",
-    icon: tekisky,
+    title: "Киберхавфсизлик мутахассиси / Специалист по кибербезопасности",
+    company_name: "Сизнинг компаниянгиз / Ваша компания",
+    icon: yourCompany,
     iconBg: "#383E56",
-    date: "Jan 2023 - present",
+    date: "2022 йил - хозиргача / 2022 - настоящее время",
     points: [
-      "Developing and maintaining web applications using MERN technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Веб-иловаларни пентeст қилиш / Проведение пентестов веб-приложений",
+      "Хавфсизлик заифликларини таҳлил қилиш / Анализ уязвимостей безопасности",
+      "Тестлашни автоматлаштириш учун скриптлар яратиш / Разработка скриптов для автоматизации тестирования",
+      "Тизимларни химоя қилиш бўйича маслиҳатлар / Консультации по улучшению защиты систем",
     ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Huzaif proved me wrong.",
-    name: "MD Mustaqeem",
-    designation: "Ecommerce",
-    company: "QuickMart",
-    image: firstTestimonial,
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Huzaif does.",
-    name: "Abdul Raheman",
-    designation: "Ecommerce Business",
-    company: "justbuyz",
-    image: secondTestimonial,
-  },
-  {
-    testimonial:
-      "After Huzaif optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "James Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: thirdTestimonial,
   },
 ];
 
 const projects = [
   {
-    name: "Tekisky Mart",
+    name: "Мой проект / Mening loyiham",
     description:
-      "Tekisky Mart is a web-based platform that allows users to search, explore, and purchase a wide range of products from various providers, offering a seamless and efficient shopping experience.",
+      "Бу меннинг биринчи лойихам / Это мой первый проект",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "white-text-gradient",
-      },
-      {
-        name: "node",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "mongodb",
+        name: "nodejs",
         color: "green-text-gradient",
       },
- 
     ],
     image: project2,
     source_code_link: "https://github.com/",
   },
   {
-    name: "GearXpert",
+    name: "Хавфсизлик воситаси / Инструмент безопасности",
     description:
-      "GearXpert is your ultimate destination for premium auto parts and accessories, Whether you're an automobile enthusiast or a professional, find everything you need to upgrade, repair.",
+      "Хакерлик ҳужумларига қарши восита / Инструмент для защиты от хакерских атак",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "emailJs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Gsap",
+        name: "cybersecurity",
         color: "pink-text-gradient",
       },
     ],
     image: gearXpert,
     source_code_link: "https://github.com/",
   },
-  {
-    name: "GoGroove-Ecommerce",
-    description:
-      "Go-Groove is your ultimate destination for premium products across various categories. Whether you're a savvy shopper or a professional, enhance, and simplify your lifestyle—all in one place!",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "express",
-        color: "white-text-gradient",
-      },
-      {
-        name: "node",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-    ],
-    image: project3,
-    source_code_link: "https://github.com/",
-  },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
