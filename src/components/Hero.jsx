@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { useState } from 'react';
 
 const Hero = () => {
   const [language, setLanguage] = useState('ru'); // 'ru' или 'uz'
