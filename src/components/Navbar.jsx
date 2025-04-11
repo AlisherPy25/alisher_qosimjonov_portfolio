@@ -26,10 +26,6 @@ const Navbar = () => {
   }, []);
 
   return (
-    <a href="#certificaties" className='text-white text-[18px] font-bold cursor-pointer flex '>
-       Сертификаты / Sertifikatlar
-    </a>
-    <nav
       className={`${
         styles.paddingX
       } w-full flex items-center py-5 fixed top-0 z-20 ${
