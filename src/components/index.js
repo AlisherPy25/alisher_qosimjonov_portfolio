@@ -8,7 +8,7 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
-import certificates from "./certificates"; // Добавляем импорт компонента сертификатов
+import certificaties from "./certificaties"; // Добавляем импорт компонента сертификатов
 
 export {
   Hero,
@@ -23,5 +23,5 @@ export {
   EarthCanvas, 
   ComputersCanvas, 
   StarsCanvas,
-  certificates // Добавляем экспорт компонента
+  certificaties // Добавляем экспорт компонента
 };
