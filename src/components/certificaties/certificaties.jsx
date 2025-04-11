@@ -3,7 +3,7 @@ import { styles } from "../styles";
 
 const Certificaties = () => {
   // Данные сертификатов с вашими ссылками
-  const certificates = [
+  const certificaties = [
     {
       id: 1,
       url: "https://i.ibb.co/9HyRx19/cert1.jpg",
