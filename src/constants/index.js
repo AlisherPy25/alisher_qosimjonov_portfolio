@@ -32,10 +32,6 @@ import {
   thirdTestimonial,
 } from '../assets';
 
-// Компания логотиплари / Логотипы компаний
-import tekisky from "../assets/company/tekisky.png";
-import yourCompany from "../assets/company/your-company.png";
-
 export const navLinks = [
   {
     id: "about",
@@ -65,7 +61,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "UI/UX дизайнер / UI/UX dizayner",
+    title: "Этичный хакер / Ethical hacker",
     icon: creator,
   },
 ];
@@ -144,8 +140,6 @@ const technologies = [
 const experiences = [
   {
     title: "Киберхавфсизлик мутахассиси / Специалист по кибербезопасности",
-    company_name: "Сизнинг компаниянгиз / Ваша компания",
-    icon: yourCompany,
     iconBg: "#383E56",
     date: "2022 йил - хозиргача / 2022 - настоящее время",
     points: [
@@ -160,8 +154,7 @@ const experiences = [
 const projects = [
   {
     name: "Мой проект / Mening loyiham",
-    description:
-      "Бу меннинг биринчи лойихам / Это мой первый проект",
+    description: "Бу меннинг биринчи лойихам / Это мой первый проект",
     tags: [
       {
         name: "react",
@@ -177,8 +170,7 @@ const projects = [
   },
   {
     name: "Хавфсизлик воситаси / Инструмент безопасности",
-    description:
-      "Хакерлик ҳужумларига қарши восита / Инструмент для защиты от хакерских атак",
+    description: "Хакерлик ҳужумларига қарши восита / Инструмент для защиты от хакерских атак",
     tags: [
       {
         name: "python",
