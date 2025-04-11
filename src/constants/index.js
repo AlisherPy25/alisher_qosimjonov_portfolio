@@ -35,8 +35,12 @@ export const navLinks = [
     title: "Обо мне / Men haqimda",
   },
   {
-    id: "work",
-    title: "Проекты / Loyihalar", 
+    id: "work", 
+    title: "Проекты / Loyihalar",
+  },
+  {
+    id: "certificaties",
+    title: "Сертификаты / Sertifikatlar"
   },
   {
     id: "contact",
@@ -54,7 +58,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend разработчик / Backend dasturchi",
+    title: "Backend разработчик / Backend dasturchi", 
     icon: backend,
   },
   {
@@ -142,7 +146,7 @@ const experiences = [
     points: [
       "Веб-иловаларни пентeст қилиш / Проведение пентестов веб-приложений",
       "Хавфсизлик заифликларини таҳлил қилиш / Анализ уязвимостей безопасности",
-      "Тестлашни автоматлаштириш учун скриптлар яратиш / Разработка скриптов для автоматизации тестирования",
+      "Тестлашни автоматлаштириш учун скриптлар яратиш / Разработка скриптов для автоматизации тестирования", 
       "Тизимларни химоя қилиш бўйича маслиҳатлар / Консультации по улучшению защиты систем",
     ],
   },
@@ -183,4 +187,61 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+const certificaties = [
+  {
+    id: 1,
+    image: "https://i.ibb.co/9HyRx19/cert1.jpg",
+    title: "Certified Ethical Hacker",
+    description: {
+      ru: "Сертификат по этичному хакингу",
+      uz: "Ethical Hacking sertifikati"
+    }
+  },
+  {
+    id: 2,
+    image: "https://i.ibb.co/0pQR2mp/cert2.jpg",
+    title: "CompTIA Security+",
+    description: {
+      ru: "Базовый сертификат безопасности",
+      uz: "Asosiy xavfsizlik sertifikati"
+    }
+  },
+  {
+    id: 3,
+    image: "https://i.ibb.co/r2d8kHj/cert3.jpg",
+    title: "OSCP Certification",
+    description: {
+      ru: "Сертификат пентестера",
+      uz: "Pentester sertifikati"
+    }
+  },
+  {
+    id: 4,
+    image: "https://i.ibb.co/VYRdvDB/cert4.jpg",
+    title: "Python Developer",
+    description: {
+      ru: "Сертификат Python разработчика",
+      uz: "Python dasturchi sertifikati"
+    }
+  },
+  {
+    id: 5,
+    image: "https://i.ibb.co/dxkd7Y7/cert5.jpg",
+    title: "C++ Advanced",
+    description: {
+      ru: "Продвинутый C++",
+      uz: "Malakali C++"
+    }
+  },
+  {
+    id: 6,
+    image: "https://i.ibb.co/0RbhYY1/cert6.jpg",
+    title: "Network Security",
+    description: {
+      ru: "Защита сетей",
+      uz: "Tarmoq xavfsizligi"
+    }
+  }
+];
+
+export { services, technologies, experiences, projects, certificaties };
