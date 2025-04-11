@@ -48,6 +48,63 @@ export const navLinks = [
   },
 ];
 
+const certificaties = [
+  {
+    id: 1,
+    url: "https://i.ibb.co/9HyRx19/cert1.jpg",
+    title: "Certified Ethical Hacker",
+    description: {
+      ru: "Сертификат этичного хакера",
+      uz: "Ethical Hacker sertifikati"
+    }
+  },
+  {
+    id: 2,
+    url: "https://i.ibb.co/0pQR2mp/cert2.jpg",
+    title: "CompTIA Security+",
+    description: {
+      ru: "Базовый сертификат безопасности",
+      uz: "Asosiy xavfsizlik sertifikati"
+    }
+  },
+  {
+    id: 3,
+    url: "https://i.ibb.co/r2d8kHj/cert3.jpg",
+    title: "OSCP Certification",
+    description: {
+      ru: "Сертификат пентестера",
+      uz: "Pentester sertifikati"
+    }
+  },
+  {
+    id: 4,
+    url: "https://i.ibb.co/VYRdvDB/cert4.jpg",
+    title: "Python Developer",
+    description: {
+      ru: "Сертификат Python разработчика",
+      uz: "Python dasturchi sertifikati"
+    }
+  },
+  {
+    id: 5,
+    url: "https://i.ibb.co/dxkd7Y7/cert5.jpg",
+    title: "C++ Advanced",
+    description: {
+      ru: "Продвинутый C++",
+      uz: "Malakali C++"
+    }
+  },
+  {
+    id: 6,
+    url: "https://i.ibb.co/0RbhYY1/cert6.jpg",
+    title: "Network Security",
+    description: {
+      ru: "Защита сетей",
+      uz: "Tarmoq xavfsizligi"
+    }
+  }
+];
+
 const services = [
   {
     title: "Пентестер / Pentester",

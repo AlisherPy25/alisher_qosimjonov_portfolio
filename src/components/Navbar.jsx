@@ -26,6 +26,9 @@ const Navbar = () => {
   }, []);
 
   return (
+    <a href="#certificaties" className="...">
+       Сертификаты / Sertifikatlar
+    </a>
     <nav
       className={`${
         styles.paddingX
