@@ -9,7 +9,7 @@ import {
   Tech, 
   Works, 
   StarsCanvas,
-  certificates // Добавляем новый компонент
+  certificaties // Добавляем новый компонент
 } from "./components";
 import Footer from "./components/Footer";
 
@@ -24,9 +24,8 @@ const App = () => {
         <About />
         <Experience />
         <Tech />
-        <certificates /> {/* Добавляем секцию сертификатов */}
+        <certificaties /> {/* Добавляем секцию сертификатов */}
         <Works />
-        <Feedbacks />
         <div className='relative z-0'>
           <Contact />
           <StarsCanvas />
