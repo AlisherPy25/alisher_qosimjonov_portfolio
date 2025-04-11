@@ -26,7 +26,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <a href="#certificaties" className="...">
+    <a href="#certificaties" className='text-white text-[18px] font-bold cursor-pointer flex '>
        Сертификаты / Sertifikatlar
     </a>
     <nav
